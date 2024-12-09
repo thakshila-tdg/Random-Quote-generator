@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background-room-light-interior-floor-wall-indoor-mockup-modern-minimal-gray-scene-generative-ai-photo.jpg') no-repeat center center fixed; /* Set your image URL here */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.container:hover {
+    transform: translateY(-10px); /* Lifting effect when hovering */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+    background-color: rgb(245, 238, 35); /* Fully opaque white background on hover */
+}
+
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#quote-box {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a6468;
+    transform: scale(1.1);
+}
